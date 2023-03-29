@@ -1,0 +1,110 @@
+
+.row{
+    margin-left: 0px;
+}
+.main-box{
+
+    min-width: 200px;
+    width: 283px;
+    margin-left: 5vh;
+}
+
+
+.row-field{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.small-box-footer:hover{
+    color: black !important;
+}
+
+
+.small-box-footer{
+
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+.bg-teal{
+    background: rgb(56, 197, 197);
+}
+.bg-yellow{
+    background-color: rgb(255, 184, 54);
+}
+.bg-green{
+    background-color: rgb(47, 187, 47);
+
+}
+
+.bg-primary{
+    background-color: rgb(99, 178, 238);
+}
+
+.bg-red{
+    background-color: rgb(233, 54, 54);
+}
+
+
+.inner h3 , h4 {
+    color: white !important;
+    margin: 10px !important;
+}
+
+
+.icon i{
+    
+    font-size: 70px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.info-link{
+
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    padding-top: 5px;
+   
+} 
+
+.inner-flex{
+    display: flex;
+    margin-top: 10px;
+    height: 125px;
+}
+
+.bg-primary-link{
+    background-color: #357aae;
+}
+
+.bg-green-link{
+    background-color: green;
+
+}
+
+.bg-yellow-link{
+
+    background-color:#d49219;
+}
+.bg-red-link{
+    background-color:#ab1111;
+}
+
+.bg-red-icon{
+    color: #ab1111;
+}
+.bg-yellow-icon{
+    color:#d49219;
+}
+.bg-green-icon{
+    color: green
+}
+.bg-primary-icon{
+    color: #357aae;
+}

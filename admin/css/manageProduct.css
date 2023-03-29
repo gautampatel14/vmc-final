@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+body{
+background-color:#eee;
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+}
+
+.height{
+height: 80px;
+}
+
+
+
+.search_bar{
+
+display: flex !important;
+position: relative;
+box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.search_bar input{
+
+height: 50px;
+text-indent: 25px;
+border: 2px solid #d6d4d4;
+
+
+}
+
+
+.search_bar input:focus{
+
+box-shadow: none;
+border: 2px solid blue;
+}
+
+
+
+.search_bar .fa-search{
+
+position: absolute;
+top: 17px;
+left: 16px;
+
+}
+
+.search_bar span .fa-search {
+  top: 12px;
+  
+}
+
+
+.search_bar span {
+
+position: absolute;
+top: 5px;
+right: 5px;
+height: 40px;
+width: 50px;
+background: blue;
+
+}
+
+.action-type-btn{
+  border:0px;
+  color: blue;
+  background-color: transparent;
+}
+
+
+
+#tableManage tr td{
+  text-align: center;
+}
+
+.search_bar input{
+  height: 7vh !important;
+}
+
+.row{
+  margin-left: 0 !important;
+}
+
+.action-type-btn i:hover{
+
+  color: rgb(66, 111, 233);
+}
+
+#add-item-btn{
+  height: 7vh !important;
+}
+
+#add-item-btn:hover{
+
+  color: #d6d4d4 !important;
+}
+
+.addbtn :hover{
+  background-color: rgb(66, 111, 233)!important;
+}
